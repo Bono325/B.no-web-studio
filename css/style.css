@@ -249,6 +249,22 @@ footer{
   width: 100%;
 }
 
+/* pricing page */
+.mainContainer{
+  background-color: darkgrey;
+  text-align: center;
+}
+.pakage{
+  display: grid;
+  grid-gap:20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+}
+.pakage img{
+  width: 300px;
+  border-radius: 50%;
+}
+
 /* responsiveness */
 @media(max-width:700px){
   #about img{
